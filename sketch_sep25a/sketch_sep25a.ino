@@ -1,6 +1,6 @@
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
-#include <KY040.h>
+#include "KY040.h"
 
 //-----------------------------------------------
 Adafruit_SSD1306 display(128, 64, &Wire, D4);
